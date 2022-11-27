@@ -349,6 +349,7 @@ header > ul > li > a {
     align-items: center;
     margin: 4px;
     padding: 47px;
+    flex-direction: column;
 }
 .choose-sub-text{
     width: 140px;
@@ -410,6 +411,117 @@ header > ul > li > a {
     width: 150px;
     display: flex;
     justify-content: center;
+}
+/*---------- insurance section ---------------------*/
+.insurance-section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.off-img{
+    width: 1270px;
+    height: 824px;
+    margin: 40px;
+}
+.insurance-content-div {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 500px;
+}
+.inn-girls-image{
+    width: 100%;
+    margin-top: 77px;
+}
+.ins-details {
+    color: #2a3044;
+    width: 391px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.margin-bottom{
+    margin-bottom: 45px;
+}
+.insurance-content-right-div{
+    position: absolute;
+    top: 100px;
+    right: 33px;
+    width: 675px;
+}
+.first-box{
+    width: 610px;
+    height: 250px;
+    background-color: #B7BE3D;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.plan-text{
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    font-size: 27px;
+    text-shadow: 2px 2px #939393;
+}
+.price-img{
+    width: 250px;
+}
+.flex-context{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+.second-box{
+    width: 610px;
+    height: 450px;
+    background-color: #B7BE3D;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+.sub-box{
+    background-color: rgba(250, 250, 250, 0.21);
+    display: flex;
+    padding: 7px 7px 7px 30px;
+    margin-top: 28px;
+    width: 80%
+}
+.sub-text{
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.box-color{
+    background: linear-gradient(#b7be3d, transparent),
+    linear-gradient(to top left, #050d14, transparent),
+    linear-gradient(to top right, #000000, transparent);
+    background-blend-mode: screen;
+}
+.sub-details{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+}
+.off-img-two{
+    display: none;
+}
+.insurance-content-div-two{
+    display:none;
 }
 /*================= MEDIA QUERIES ==================*/
 /* For small devices */
@@ -609,5 +721,97 @@ header > ul > li > a {
     .company-logo-section {
         height: 262px;
     }
+    .off-img{
+        display: none;
+    }
+    .off-img-two{
+        display: block;
+    }
+    .off-img-two {
+        width: 90%;
+        margin: 22px 22px 0 22px;
+        position: relative;
+    }
+    .insurance-content-div{
+        display: none;
+    }
+    .insurance-content-right-div{display: none}
+    .insurance-content-div-two{
+        position: absolute;
+        display:block;
+    }
+    .first-content{
+        position: relative;
+    }
+    .insurance-content-div-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 49px;
+    }
+    .text-responsive{
+        text-align: center;
+        width: 89%;
+        font-size: 34px;
+    }
+    .ins-details{
+        color: #2a3044;
+        width: 355px;
+        font-size: 23px;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .h-line{
+        justify-content: center;
+    }
+    .insurance-section {
+        position: relative;
+        display: block;
+    }
+    .inn-girls-image{
+        position: relative;
+        width: 90%;
+        margin: 0 22px 0 22px;
+    }
+    .insurance-content-right-div-two{
+        position: relative;
+    }
+    .first-box {
+        width: 90%;
+        margin: 3px 22px 2px 22px;
+        height: 250px;
+        background-color: #B7BE3D;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-box {
+        width: 90%;
+        margin: 3px 22px 2px 22px;
+    }
+    .sub-box {
+        background-color: rgba(250, 250, 250, 0.21);
+        display: flex;
+        padding: 7px 7px 7px 15px;
+        margin-top: 28px;
+        width: 80%;
+    }
+    .sub-text {
+        font-size: 20px;
+    }
+    .sub-details {
+        font-size: 14px;
+        margin-top: 30px;
+        width: 80%;
+        margin-bottom: 0;
+    }
+    .second-box {
+        height: 465px;
+    }
+
 }
 
