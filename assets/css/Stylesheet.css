@@ -415,13 +415,12 @@ header > ul > li > a {
 /*---------- insurance section ---------------------*/
 .insurance-section{
     position: relative;
-    display: flex;
     justify-content: center;
 }
 .off-img{
     width: 1270px;
-    height: 824px;
-    margin: 40px;
+    height: 885px;
+    margin: 35px;
 }
 .insurance-content-div {
     position: absolute;
@@ -431,7 +430,7 @@ header > ul > li > a {
 }
 .inn-girls-image{
     width: 100%;
-    margin-top: 77px;
+    margin-top: 21px;
 }
 .ins-details {
     color: #2a3044;
@@ -479,7 +478,7 @@ header > ul > li > a {
 }
 .second-box{
     width: 610px;
-    height: 450px;
+    height: 391px;
     background-color: #B7BE3D;
     display: flex;
     flex-direction: column;
@@ -522,6 +521,30 @@ header > ul > li > a {
 }
 .insurance-content-div-two{
     display:none;
+}
+.inn-girls-image-two{
+    display: none;
+}
+.insurance-content-right-div-two{
+    display: none;
+}
+.first-box-two{
+    display: none;
+}
+.call-div{
+    width: 85%;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 81px;
+    left: 100px;
+    border: 1px solid #c5be36;
+    padding: 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.first-text-call-details{
+
 }
 /*================= MEDIA QUERIES ==================*/
 /* For small devices */
@@ -769,7 +792,7 @@ header > ul > li > a {
         position: relative;
         display: block;
     }
-    .inn-girls-image{
+    .inn-girls-image-two{
         position: relative;
         width: 90%;
         margin: 0 22px 0 22px;
@@ -777,7 +800,7 @@ header > ul > li > a {
     .insurance-content-right-div-two{
         position: relative;
     }
-    .first-box {
+    .first-box-two {
         width: 90%;
         margin: 3px 22px 2px 22px;
         height: 250px;
@@ -789,7 +812,7 @@ header > ul > li > a {
         justify-content: center;
         align-items: center;
     }
-    .second-box {
+    .second-box-two{
         width: 90%;
         margin: 3px 22px 2px 22px;
     }
@@ -809,7 +832,7 @@ header > ul > li > a {
         width: 80%;
         margin-bottom: 0;
     }
-    .second-box {
+    .second-box-two {
         height: 465px;
     }
 
