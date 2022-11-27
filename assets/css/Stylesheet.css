@@ -299,6 +299,87 @@ header > ul > li > a {
 .btn-bottom{
     margin-bottom: 20px;
 }
+/*------------- choose-us-section -------------------*/
+.choose-us-section{
+    position: relative;
+    margin-top: 100px;
+    background-color:#3A444D;
+}
+.chicago-img{
+    width: 100%;
+    opacity: 0.06;
+}
+.choose-content-div {
+    position: absolute;
+    top: 100px;
+    right: 225px;
+    width: 432px;
+}
+.choose-details{
+    color: #fff;
+    width: 350px;
+    font-size: 15px;
+}
+.header-width{
+    width: 300px;
+    margin-bottom: 20px;
+}
+.choose-card-box{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+}
+.learn-more-btn{
+    background-color: #fff;
+    color: #2a3044;
+    width: 126px;
+    height: 32px;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.card-background{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    padding: 47px;
+}
+.choose-sub-text{
+    width: 140px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.tooth-circle-div{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid #B7BE3D;
+    background-color: #3A444D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    left: 41%;
+}
+.chicago-img-two{
+    display: none;
+}
+.choose-content-div-header{
+    display: none;
+}
+.choose-content-div-bottom{
+    display: none;
+}
 /*================= MEDIA QUERIES ==================*/
 /* For small devices */
 @media all and (min-width: 200px) and (max-width: 500px){
@@ -415,6 +496,68 @@ header > ul > li > a {
     }
     .crown-section{
         display: none;
+    }
+    .chicago-img{
+        display: none;
+    }
+    .choose-content-div{
+        display: none;
+    }
+    .card-background {
+        padding: 24px;
+    }
+    .choose-card-box {
+        left: 14px;
+        width: 500px;
+    }
+    .tooth-circle-div {
+        top: 40%;
+        left: 32%;
+    }
+    .chicago-img-two{
+        display: block;
+        width: 100%;
+        opacity: 0.06;
+    }
+    .choose-content-div-header{
+        display: block;
+    }
+    .choose-content-div-header{
+        position: absolute;
+        top: 30px;
+        left: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .header-width {
+        width: 361px;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+    .choose-card-box {
+        top: 120px;
+    }
+    .choose-content-header-flex{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .choose-content-div-bottom{
+        display: block;
+    }
+    .choose-content-div-bottom{
+        position: absolute;
+        bottom: 30px;
+        left: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
     }
 }
 
