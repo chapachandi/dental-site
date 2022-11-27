@@ -235,6 +235,70 @@ header > ul > li > a {
 .card-flex-box-two{
     display: none;
 }
+.read-more-btn{
+    background-color: #5C6971;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    text-transform: uppercase;
+    border: 2px solid #5C6971;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+/*-------------- priority section -------------------*/
+.priority-section{
+    position: relative;
+    margin-top: 100px;
+}
+.priority-img{
+    width: 100%;
+}
+.priority-img-two{
+    display: none;
+}
+.priority-content-div-two{
+    display: none;
+}
+.priority-content-div {
+    position: absolute;
+    top: 100px;
+    left: 253px;
+    width: 370px;
+}
+.priority-details{
+    color: #2a3044;
+    width: 350px;
+    font-size: 15px;
+}
+.btn-margin-top{
+    margin-top: 33px;
+}
+/*-------- crown section -----------*/
+.crown-section{
+    position: relative;
+    margin-top: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.grp-img{
+    width: 55px;
+    margin-bottom: 15px;
+}
+.crown-sub-text{
+    width: 250px;
+    text-align: center;
+}
+.btn-bottom{
+    margin-bottom: 20px;
+}
 /*================= MEDIA QUERIES ==================*/
 /* For small devices */
 @media all and (min-width: 200px) and (max-width: 500px){
@@ -317,6 +381,40 @@ header > ul > li > a {
         border: 2px solid #5C6971;
         border-radius: 5px;
         font-size: 14px;
+    }
+    .priority-img-two{
+        display: block;
+        width: 100%;
+    }
+    .priority-img{
+        display: none;
+    }
+    .priority-content-div{
+        display: none;
+    }
+    .priority-content-div-two{
+        display: block;
+        margin-top: 35px;
+    }
+    .grp{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .grp-img{
+        width: 55px;
+        margin-bottom: 15px;
+    }
+    .crown-sub-text{
+        width: 337px;
+        text-align: center;
+    }
+    .btn-bottom{
+        margin-bottom: 20px;
+    }
+    .crown-section{
+        display: none;
     }
 }
 
