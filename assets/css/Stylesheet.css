@@ -543,6 +543,9 @@ header > ul > li > a {
     flex-direction: row;
     align-items: center;
 }
+.call-div-two{
+    display: none;
+}
 .first-text-call-details{
     margin-right: 10px;
 }
@@ -693,6 +696,12 @@ header > ul > li > a {
 .copy-text{
     color: white;
     font-size: 14px;
+}
+.city{
+    display: none;
+}
+.footer-img-two{
+    display: none;
 }
 /*================= MEDIA QUERIES ==================*/
 /* For small devices */
@@ -995,6 +1004,20 @@ header > ul > li > a {
     .call-div{
         display: none;
     }
+    .call-div-two{
+        width: 90%;
+        height: 278px;
+        background-color: #ffffff;
+        position: relative;
+        bottom: 0;
+        left: 22px;
+        border: 1px solid #c5be36;
+        padding: 9px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
     .off-img-two{
         display: block;
     }
@@ -1019,9 +1042,583 @@ header > ul > li > a {
     .hide-display{
         display: none;
     }
-    .icon-flex-one{
+    .content-flex {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        /* width: 200px; */
+    }
+    .city{
+        display: block;
+    }
+    .open-time{
+        width: 255px;
+        text-align: center;
+    }
+    .footer-img{
         display: none;
+    }
+    .footer-img-two{
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .footer-flex{
+        display: none;
+    }
+    .footer-flex-two{
+        position: absolute;
+        bottom: 18px;
+        left: 17%;
+        font-size: 14px;
+        width: 311px;
     }
 
 }
-
+@media all and (min-width: 1024px) and (max-width: 2000px){
+    /*------------ patient testimonial -----------------*/
+    .patient-testimonial-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+    }
+    .h-line{
+        width: 71px;
+        height: 2px;
+        background-color: #B7BE3D;
+        margin-bottom: 25px;
+    }
+    .review-num{
+        color: #2a3044;
+        font-size: 35px;
+    }
+    .review{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 25px;
+    }
+    .reviews{
+        padding-left: 10px;
+    }
+    .yellow-color{
+        color: #ffea1a;
+    }
+    .card{
+        padding: 20px;
+        margin: 10px;
+        border: 1px solid #b9c23096;
+        justify-content: center;
+    }
+    .card-content-div{
+        display: flex;
+        flex-direction: row;
+    }
+    .avatar-div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 35px;
+    }
+    .avatar{
+        margin-bottom: 10px;
+        width: 55px;
+    }
+    .pt-name{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .b-line{
+        width: 31px;
+        height: 2px;
+        background-color: #B7BE3D;
+    }
+    .details{
+        width: 248px;
+        font-size: 13px;
+    }
+    .card-flex-box{
+        display: flex;
+        flex-direction: row;
+    }
+    .details-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-flex-box-two{
+        display: none;
+    }
+    .read-more-btn{
+        background-color: #5C6971;
+        color: #fff;
+        width: 200px;
+        height: 40px;
+        text-transform: uppercase;
+        border: 2px solid #5C6971;
+        border-radius: 5px;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    /*-------------- priority section -------------------*/
+    .priority-section{
+        position: relative;
+        margin-top: 100px;
+    }
+    .priority-img{
+        width: 100%;
+    }
+    .priority-img-two{
+        display: none;
+    }
+    .priority-content-div-two{
+        display: none;
+    }
+    .priority-content-div {
+        position: absolute;
+        top: 100px;
+        left: 253px;
+        width: 370px;
+    }
+    .priority-details{
+        color: #2a3044;
+        width: 350px;
+        font-size: 15px;
+    }
+    .btn-margin-top{
+        margin-top: 33px;
+    }
+    /*-------- crown section -----------*/
+    .crown-section{
+        position: relative;
+        margin-top: 95px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .grp{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .grp-img{
+        width: 55px;
+        margin-bottom: 15px;
+    }
+    .crown-sub-text{
+        width: 250px;
+        text-align: center;
+    }
+    .btn-bottom{
+        margin-bottom: 20px;
+    }
+    /*------------- choose-us-section -------------------*/
+    .choose-us-section{
+        position: relative;
+        margin-top: 100px;
+        background-color:#3A444D;
+    }
+    .chicago-img{
+        width: 100%;
+        opacity: 0.06;
+    }
+    .choose-content-div {
+        position: absolute;
+        top: 100px;
+        right: 225px;
+        width: 432px;
+    }
+    .choose-details{
+        color: #fff;
+        width: 350px;
+        font-size: 15px;
+    }
+    .header-width{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .choose-card-box{
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        display: flex;
+        width: 500px;
+        flex-wrap: wrap;
+    }
+    .learn-more-btn{
+        background-color: #fff;
+        color: #2a3044;
+        width: 126px;
+        height: 32px;
+        text-transform: uppercase;
+        border: 2px solid #fff;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    .card-background{
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4px;
+        padding: 47px;
+        flex-direction: column;
+    }
+    .choose-sub-text{
+        width: 140px;
+        color: white;
+        text-transform: uppercase;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .tooth-circle-div{
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        border: 2px solid #B7BE3D;
+        background-color: #3A444D;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 40%;
+        left: 41%;
+    }
+    .chicago-img-two{
+        display: none;
+    }
+    .choose-content-div-header{
+        display: none;
+    }
+    .choose-content-div-bottom{
+        display: none;
+    }
+    /*------------ company-logo-section ----------------*/
+    .company-logo-section{
+        position: relative;
+        background-color: #e5e7e8;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .spectrum-background {
+        background: linear-gradient(#f8f9fa, transparent),
+        linear-gradient(to top left, #adb5bd, transparent),
+        linear-gradient(to top right, #adb5bd, transparent);
+        background-blend-mode: screen;
+    }
+    .card-logo{
+        width: 240px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+    .company-logo-image{
+        width: 150px;
+        display: flex;
+        justify-content: center;
+    }
+    /*---------- insurance section ---------------------*/
+    .insurance-section{
+        position: relative;
+        justify-content: center;
+    }
+    .off-img{
+        width: 1270px;
+        height: 885px;
+        margin: 35px;
+    }
+    .insurance-content-div {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        width: 500px;
+    }
+    .inn-girls-image{
+        width: 100%;
+        margin-top: 21px;
+    }
+    .ins-details {
+        color: #2a3044;
+        width: 391px;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .margin-bottom{
+        margin-bottom: 45px;
+    }
+    .insurance-content-right-div{
+        position: absolute;
+        top: 100px;
+        right: 33px;
+        width: 675px;
+    }
+    .first-box{
+        width: 610px;
+        height: 250px;
+        background-color: #B7BE3D;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .plan-text{
+        color: #fff;
+        font-weight: 600;
+        text-align: center;
+        font-size: 27px;
+        text-shadow: 2px 2px #939393;
+    }
+    .price-img{
+        width: 250px;
+    }
+    .flex-context{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+    }
+    .second-box{
+        width: 610px;
+        height: 391px;
+        background-color: #B7BE3D;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .sub-box{
+        background-color: rgba(250, 250, 250, 0.21);
+        display: flex;
+        padding: 7px 7px 7px 30px;
+        margin-top: 28px;
+        width: 80%
+    }
+    .sub-text{
+        font-size: 18px;
+        color: #fff;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-bottom: 0;
+    }
+    .box-color{
+        background: linear-gradient(#b7be3d, transparent),
+        linear-gradient(to top left, #050d14, transparent),
+        linear-gradient(to top right, #000000, transparent);
+        background-blend-mode: screen;
+    }
+    .sub-details{
+        color: #fff;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+    .off-img-two{
+        display: none;
+    }
+    .insurance-content-div-two{
+        display:none;
+    }
+    .inn-girls-image-two{
+        display: none;
+    }
+    .insurance-content-right-div-two{
+        display: none;
+    }
+    .first-box-two{
+        display: none;
+    }
+    .call-div{
+        width: 85%;
+        background-color: #ffffff;
+        position: absolute;
+        bottom: 81px;
+        left: 100px;
+        border: 1px solid #c5be36;
+        padding: 9px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .call-div-two{
+        display: none;
+    }
+    .first-text-call-details{
+        margin-right: 10px;
+    }
+    .request-btn-two{
+        background-color: #5C6971;
+        color: #fff;
+        width: 236px;
+        height: 36px;
+        text-transform: uppercase;
+        border: 2px solid #5C6971;
+        border-radius: 5px;
+        font-size: 12px;
+        margin-left: 143px;
+    }
+    /*---------------------*/
+    .blog-section{
+        position: relative;
+    }
+    .blog-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 90px;
+    }
+    .blog-card-flex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .card-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 222px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .blog-image{
+        width: 222px;
+    }
+    .card-blog{
+        padding: 40px 10px 30px 10px;
+        text-align: center;
+        border: 1px solid #c5be36;
+        width: 222px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .blog-read-more-btn{
+        background-color: #5C6971;
+        color: #fff;
+        width: 110px;
+        height: 34px;
+        text-transform: uppercase;
+        border: 2px solid #5C6971;
+        border-radius: 5px;
+        font-size: 11px;
+        margin-top: 15px;
+    }
+    .box-div{
+        width: 180px;
+    }
+    .blog-sub-text{
+        width: 128px;
+    }
+    .icon-flex{
+        display: none;
+    }
+    /*--------------------------*/
+    .office-tour-section{
+        position: relative;
+    }
+    .office-image{
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .img-flex{
+        display: flex;
+        justify-content: center;
+    }
+    .icon-flex-one{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .tour-icon{
+        margin-right: 20px;
+        border-right: 1px solid;
+        padding-right: 20px;
+    }
+    /*-----------------------*/
+    .contact-section{
+        position: relative;
+        margin-top: 78px;
+        border-top: 1px solid #adb5bd;
+        padding-top: 40px;
+    }
+    .content-flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .location{
+        width: 100%;
+        position: relative;
+    }
+    .footer{
+        position: absolute;
+        bottom: 0;
+        background-color: #2a3044;
+        height: 100%;
+        width: 100%;
+        border-radius: 50% 50% 0 0/100% 100% 0 0;
+    }
+    .footer-flex{
+        position: absolute;
+        bottom: 44px;
+        left: 27%;
+    }
+    .footer-flex-two{
+        position: absolute;
+        bottom: 15px;
+        left: 28%;
+    }
+    .footer-img{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .footer-text{
+        margin-right: 30px;
+        border-right: 1px solid #fff;
+        padding-right: 20px;
+        cursor: pointer;
+    }
+    .copy-text{
+        color: white;
+        font-size: 14px;
+    }
+    .city{
+        display: none;
+    }
+    .footer-img-two{
+        display: none;
+    }
+}
